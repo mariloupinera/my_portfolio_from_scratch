@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #fffafd;
+  color: #a3a3a0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px 1fr 1fr 1fr 1fr 1fr 1fr 50px;
+  gap: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.container div {
+  border: 1px;
+  padding: 10px;
+}
+
+.header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.3)), url('../images/webdev.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+
+.avatar {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 170px;
+}
+
+.profile {
+  text-align: center;
+  color: #ffff;
+}
+
+.description {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.description h1 {
+  text-align: center;
+}
+
+.soft-skills {
+  margin-left: 100px;
+}
+
+.tech-skills {
+  margin-left: 60px;
+}
+.projects {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.img1 img {
+  height: 240px;
+  width: 419px;
+}
+
+.img2 img {
+  height: 240px;
+  width: 419px;
+}
+
+.img1 a, .img2 a, .cv a {
+  color: #08c96b;
+  text-decoration: none;
+}
+
+.cv img {
+  height: 600px;
+  width: 414px;
+}
+
+.icons {
+ font-size: xx-large;
+ text-decoration: none;
+ display: flex;
+ justify-content: space-evenly;
+
+}
+
+.contacts ul {
+  font-size: 25px !important;
+
+}
+
+.contacts a{
+  text-decoration: none;
+  color: #08c96b;
+}
+
+.contacts a:hover, .img1 a:hover, .img2 a:hover, .cv a:hover {
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin-left: 80px;
+}
+
+.fa-home:before {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.fa-mobile-phone:before, .fa-mobile:before {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.fa-envelope-square:before {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #3f3f3f;
+}
+
+.icons a:hover {
+  color: #ffff !important;
+
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer {
+  text-align: center;
+}
+
+.fa {
+  color: black !important;
+  text-decoration: none !important;
+}
