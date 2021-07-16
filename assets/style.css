@@ -6,6 +6,11 @@ body {
   color: #a3a3a0;
 }
 
+hr {
+  font-size: 50px !important;
+  size: 3;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
