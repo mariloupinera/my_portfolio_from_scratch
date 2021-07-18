@@ -1,6 +1,6 @@
 html, body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100wh;
   margin: 0px;
   font-size: 18px;
   font-family: sans-serif;
@@ -98,7 +98,7 @@ li {
 }
 
 .skills ul {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .soft-skills {
