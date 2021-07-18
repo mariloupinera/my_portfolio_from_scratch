@@ -115,7 +115,7 @@ li {
 
 .skills ul {
   font-size: 100%;
-  border-spacing: 10%;
+  line-height: 100%;
 }
 
 .projects {
