@@ -1,29 +1,42 @@
 html, body {
   height: 100vh;
   width: 100wh;
-  margin: 0px;
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #FFF0F0;
   color: #a3a3a0;
-  position: center;
+  margin: 0px;
+  margin-left: 5px;
+}
 
+h1 {
+  margin: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 350%;
+}
+
+h3 {
+  font-family: 'Otomanopee One', sans-serif;
 }
 
 .main {
   min-height: calc(125% - 73px - 72px);
+  text-align: -webkit-center;
+}
+
+.main p {
+  width: 70%;
 }
 
 
 .container {
   height: 100%;
-  width: 100%;
+  width: 98.3%;
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.3)), url('../images/webdev.jpeg');*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 650px 1fr 1fr 1fr 1fr 1fr 1fr 50px;
   gap: 10px;
-  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -44,11 +57,13 @@ html, body {
 
 .navbar {
   background-color: #3f3f3f;
+  width: 98.3%;
 }
 
 .navbar a {
   text-decoration: none;
   color: #ffff;
+  font-size: 135%;
 }
 
 .navbar a:hover {
@@ -68,7 +83,7 @@ html, body {
 
 .avatar img {
   width: 20%;
- height: auto;
+  height: auto;
 }
 
 .profile {
@@ -83,6 +98,7 @@ html, body {
 
 h2 {
   margin: 40px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 li {
@@ -90,38 +106,34 @@ li {
 }
 
 .skills {
-   grid-column-start: 1;
+  grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
   justify-content: space-evenly;
-  font-size: 25px;
+  min-height: calc(125% - 73px - 72px);
 }
 
 .skills ul {
-  font-size: 20px;
+  font-size: 100%;
+  border-spacing: 10%;
 }
 
-.soft-skills {
-  margin-left: 100px;
-}
-
-.tech-skills {
-  margin-left: 60px;
-}
 .projects {
-  text-align: center;
+  text-align: -webkit-center;
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
 .img1 img {
-  height: 240px;
-  width: 419px;
+  width: 25%;
 }
 
 .img2 img {
-  height: 240px;
-  width: 419px;
+  width: 50%;
+}
+
+.img2 p {
+  text-align: -webkit-center;
 }
 
 .cv {
@@ -136,12 +148,11 @@ p a, .cv a, .contacts a{
 }
 
 .cv img {
-  height: 600px;
-  width: 414px;
+  width: 34%;
 }
 
 .icons {
- font-size: 35px;
+ font-size: 195%;
  text-decoration: none;
  display: flex;
  justify-content: space-evenly;
@@ -170,9 +181,13 @@ p a:hover, .contacts a:hover, .cv a:hover {
   font-size: 40px;
 }
 
+.fa {
+  color: black !important;
+  text-decoration: none !important;
+}
 
 .fa-home:before {
-  font-size: 25px;
+  font-size: 195%;
   margin-right: 20px;
 }
 
@@ -203,15 +218,12 @@ footer {
 
 .footer {
   text-align: center;
-}
-
-.fa {
-  color: black !important;
-  text-decoration: none !important;
+  width: 98.3%;
 }
 
 .copyright {
   background-color: #EBD4D4;
   text-align: center;
   color: #835858;
+  width: 98.3%;
 }
