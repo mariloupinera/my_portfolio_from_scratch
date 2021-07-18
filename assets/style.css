@@ -209,3 +209,9 @@ footer {
   color: black !important;
   text-decoration: none !important;
 }
+
+.copyright {
+  background-color: #EBD4D4;
+  text-align: center;
+  color: #835858;
+}
