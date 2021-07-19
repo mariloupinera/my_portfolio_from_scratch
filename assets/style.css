@@ -15,8 +15,38 @@ h1 {
   font-size: 350%;
 }
 
+h2 {
+  margin: 40px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
 h3 {
   font-family: 'Otomanopee One', sans-serif;
+}
+
+hr {
+  border: double;
+  border-width: 4px;
+  margin: 50px 50px;
+}
+
+li {
+  margin: 15px 0;
+}
+
+p a, .cv a, .contacts a{
+  color: #835858;
+  text-decoration: none;
+}
+
+p a:hover, .contacts a:hover, .cv a:hover {
+  text-decoration: underline;
+  color: #EBD4D4;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .main {
@@ -27,7 +57,6 @@ h3 {
 .main p {
   width: 70%;
 }
-
 
 .container {
   height: 100%;
@@ -96,15 +125,6 @@ h3 {
   grid-column-end: 3;
 }
 
-h2 {
-  margin: 40px 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-li {
-  margin: 15px 0;
-}
-
 .skills {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -125,26 +145,21 @@ li {
 }
 
 .img1 img {
-  width: 25%;
+  width: 230px;
 }
 
 .img2 img {
   width: 50%;
 }
 
-.img2 p {
-  text-align: -webkit-center;
+.img2 p, .img1 p {
+  margin: 50px 50px;
 }
 
 .cv {
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
-}
-
-p a, .cv a, .contacts a{
-  color: #835858;
-  text-decoration: none;
 }
 
 .cv img {
@@ -164,13 +179,8 @@ p a, .cv a, .contacts a{
 
 }
 
-p a:hover, .contacts a:hover, .cv a:hover {
-  text-decoration: underline;
-  color: #EBD4D4;
-}
-
 .img1 img:hover, .img2 img:hover {
-  color: #EBD4D4;
+  Background Color: rgba(0,0,0,0.8)
 }
 
 .contact-info {
@@ -208,12 +218,6 @@ p a:hover, .contacts a:hover, .cv a:hover {
 
 .icons a:hover {
   color: #ffff !important;
-
-}
-
-footer {
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 
 .footer {
@@ -224,6 +228,7 @@ footer {
 .copyright {
   background-color: #EBD4D4;
   text-align: center;
-  color: #835858;
+  color: #968C83;
   width: 98.3%;
+  font-size: 13px;
 }
