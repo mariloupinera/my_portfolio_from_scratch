@@ -7,15 +7,26 @@ html, body {
   color: #a3a3a0;
 }
 
+/*.container-{breakpoint} {
+  background-color: #FFF0F0;
+}*/
+
+.main-titre {
+  padding-top: 25px;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #FFF0F0;
+
+}
+
 h1 {
-  margin: 50px !important;
   font-family: 'Sacramento', cursive;
   font-size: 350%;
 }
 
 h2 {
-  margin: 40px 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 h3 {
@@ -73,6 +84,7 @@ footer .container-fluid {
 
 .avatar {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .avatar img {
@@ -87,10 +99,34 @@ footer .container-fluid {
   letter-spacing: 5px;
 }
 
-.description {
+.about-me {
+  text-align: center;
+  background-color: #FFF0F0;
+}
+
+.title {
+  margin: 0;
+  font-weight: bolder;
+  color: #a3a3a0;
+  padding: 30px 0;
+}
+
+.projects {
+  background-color: #FFF0F0;
+}
+
+.card-body {
+  padding: 1rem 1rem 1rem 8rem !important;
+}
+
+img .uplift .bikey {
+  margin: 20px 0;
+}
+
+/*.description {
   grid-column-start: 1;
   grid-column-end: 3;
-}
+}*/
 
 .skills {
   grid-column-start: 1;
@@ -103,24 +139,12 @@ footer .container-fluid {
 .skills ul {
   font-size: 100%;
   line-height: 100%;
+
 }
 
-.projects {
-  text-align: -webkit-center;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.img1 img {
-  width: 230px;
-}
-
-.img2 img {
-  width: 50%;
-}
-
-.img2 p, .img1 p {
-  margin: 50px 50px;
+img {
+  width: 385px;
+  height: auto;
 }
 
 .cv {
