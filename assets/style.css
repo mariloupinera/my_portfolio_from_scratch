@@ -12,8 +12,9 @@ html, body {
 }*/
 
 .main-titre {
-  padding-top: 25px;
+  padding: 1rem 0;
   margin-bottom: 0;
+  font-size: 60px;
   text-align: center;
   background-color: #FFF0F0;
 
