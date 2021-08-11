@@ -7,10 +7,6 @@ html, body {
   color: #a3a3a0;
 }
 
-/*.container-{breakpoint} {
-  background-color: #FFF0F0;
-}*/
-
 .main-titre {
   padding: 1rem 0;
   margin-bottom: 0;
@@ -108,11 +104,15 @@ footer .container-fluid {
   margin: 0;
   font-weight: bolder;
   color: #a3a3a0;
-  padding: 30px 0;
+  padding: 50px 0 10px 0;
 }
 
 .descriptions {
   padding: 2rem;
+}
+
+.mb-3 {
+  margin-top: 1rem;
 }
 
 .projects {
@@ -123,18 +123,9 @@ footer .container-fluid {
   padding: 1rem 3rem !important;
 }
 
-.uplift .bikey {
-  display: ;
-}
-
 img .uplift .bikey {
   margin: 20px 0;
 }
-
-/*.description {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}*/
 
 .skills {
   grid-column-start: 1;
@@ -182,12 +173,7 @@ img {
 
 .contacts ul {
   font-size: 25px !important;
-  color: gray;
-
-}
-
-.img1 img:hover, .img2 img:hover {
-  Background Color: rgba(0,0,0,0.8)
+  padding-left: 0 !important;
 }
 
 .contact-info {
@@ -199,30 +185,23 @@ img {
 }
 
 .fa {
-  color: #EBD4D4 !important;
+  display: inline-grid !important;
+  color:  rgba(0,0,0,0.8) !important;
   text-decoration: none !important;
 }
 
-.fa:hover {
-  color: #0000 !important;
+footer .fa:hover {
+  color: #EBD4D4 !important;
 }
 
-.fa-home:before {
-  font-size: 195%;
-  margin-right: 20px;
+.fa-home:before, .fa-envelope-square:before {
+  font-size: 100%;
 }
 
 
 .fa-mobile-phone:before, .fa-mobile:before {
-  font-size: 30px;
-  margin-right: 20px;
+  font-size: 130%;
 }
-
-.fa-envelope-square:before {
-  font-size: 20px;
-  margin-right: 20px;
-}
-
 
 .footer {
   text-align: center;
