@@ -2,23 +2,9 @@ html, body {
   height: 100vh;
   width: 100wh;
   font-size: 18px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', 'Montserrat' !important;
   background-color: #FFF0F0;
   color: #a3a3a0;
-}
-
-.main-titre {
-  padding: 1rem 0;
-  margin-bottom: 0;
-  font-size: 60px;
-  text-align: center;
-  background-color: #FFF0F0;
-
-}
-
-h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 350%;
 }
 
 h2 {
@@ -50,23 +36,6 @@ footer .container-fluid {
   margin: 10px 0;
 }
 
-.navbar {
-  font-family: Roboto, sans-serif;
-}
-
-.nav-link {
-  margin: 0 20px;
-}
-
-.scroll {
-  color: #EBD4D4;
-}
-
-.scroll:hover {
-  text-decoration: underline !important;
-  color: #EBD4D4 !important;
-}
-
 .my-profile {
   background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url('../images/webdev.jpeg');
   background-repeat: no-repeat;
@@ -84,15 +53,21 @@ footer .container-fluid {
 }
 
 .avatar img {
-  margin-top: 70px;
-  width: 20%;
+  margin-top: 10%;
+  width: 30%;
   height: auto;
+}
+
+.name {
+  font-family: 'Sacramento', cursive;
+  font-size: 250%;
 }
 
 .profile {
   text-align: center;
   color: #ffff;
   letter-spacing: 5px;
+  padding-bottom: 4rem;
 }
 
 .about-me {
@@ -104,11 +79,12 @@ footer .container-fluid {
   margin: 0;
   font-weight: bolder;
   color: #a3a3a0;
-  padding: 50px 0 10px 0;
+  padding: 4rem 0rem 2rem;
 }
 
 .descriptions {
   padding: 2rem;
+  font-family: 'Montserrat', 'Roboto';
 }
 
 .mb-3 {
@@ -120,11 +96,11 @@ footer .container-fluid {
 }
 
 .card-body {
-  padding: 1rem 3rem !important;
+  padding: 1rem 4rem !important;
 }
 
-img .uplift .bikey {
-  margin: 20px 0;
+.uplift .bikey {
+   margin: 20px 0;
 }
 
 .skills {
@@ -132,8 +108,7 @@ img .uplift .bikey {
   grid-column-end: 3;
   display: flex;
   justify-content: space-evenly;
-  min-height: calc(125% - 73px - 72px);
-  padding: 2rem;
+  padding-bottom: 4rem;
   color: #a3a3a0;
 
 }
@@ -144,21 +119,27 @@ img .uplift .bikey {
 
 }
 
-img {
+.project-img {
   width: 385px;
   height: auto;
-  padding: 2rem 2rem;
+  padding: 2rem;
+}
+
+#my-cv {
+  margin: -13px;
 }
 
 .cv {
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 4rem;
 }
 
-.cv img {
-  width: 34%;
-  padding: 1 rem;
+img {
+  width: 350px;
+  margin-bottom: 4 rem;
 }
 
 .icons {
@@ -171,13 +152,16 @@ img {
 
 }
 
-.contacts ul {
-  font-size: 25px !important;
+#contacts ul a {
+  font-size: 100%;
+  color: #000;
+  text-align: center;
   padding-left: 0 !important;
 }
 
-.contact-info {
-  margin-left: 80px;
+#contact-info {
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .footer .fa-home:before {
@@ -188,6 +172,7 @@ img {
   display: inline-grid !important;
   color:  rgba(0,0,0,0.8) !important;
   text-decoration: none !important;
+  text-align: center !important;
 }
 
 footer .fa:hover {
@@ -195,12 +180,12 @@ footer .fa:hover {
 }
 
 .fa-home:before, .fa-envelope-square:before {
-  font-size: 100%;
+  font-size: 150%;
 }
 
 
 .fa-mobile-phone:before, .fa-mobile:before {
-  font-size: 130%;
+  font-size: 200%;
 }
 
 .footer {
