@@ -19,7 +19,6 @@
   <body>
 
     <div class="container-{breakpoint}">
-      <h1 class="main-titre">My Portfolio</h1>
         <div class="container-fluid my-profile">
           <div class="row">
             <div class="col-sm">
@@ -27,7 +26,7 @@
                 <img src="images/circle-cropped.png">
               </div>
               <div class="profile">
-                <h1><em>I'm Marilou</em></h1>
+                <h1 class="name">I'm Marilou</h1>
                 <h3>Full Stack Web Developer</h3>
               </div>
             </div>
@@ -44,7 +43,7 @@
               </p>
             </div>
           </div>
-
+        </div>
         <!-- Projects -->
         <div class="container-fluid projects">
           <hr>
@@ -52,7 +51,7 @@
           <div class="card mb-3" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4">
-                <a class="img-fluid rounded-start" href="http://www.uplift-co.com" target="_blank"><img src="images/uplift.jpg" style="padding: 5rem 2rem;"></a>
+                <a class="img-fluid rounded-start" href="http://www.uplift-co.com" target="_blank"><img src="images/uplift.jpg" class="project-img"></a>
               </div>
               <div class="uplift col-md-8">
                 <div class="card-body">
@@ -62,10 +61,11 @@
               </div>
             </div>
           </div>
+
           <div class="card mb-3" style="max-width: 100% max-height: 10rem;">
             <div class="row g-0">
               <div class="uplift col-sm-12 col-md-4">
-                <a class="img-fluid rounded-start" href="https://bikey--homebuddy.herokuapp.com" target="_blank"><img src="images/bike.jpg"></a>
+                <a class="img-fluid rounded-start" href="https://bikey--homebuddy.herokuapp.com" target="_blank"><img src="images/bike.jpg" class="project-img"></a>
               </div>
               <div class="bikey col-sm-12 col-md-8">
                 <div class="card-body">
@@ -75,6 +75,19 @@
               </div>
             </div>
           </div>
+          <div class="card mb-3" style="max-width: 100% max-height: 10rem;">
+            <div class="row g-0">
+              <div class="uplift col-sm-12 col-md-4">
+                <a class="img-fluid rounded-start" href="https://mariloupinera.github.io/restaurant-app2" target="_blank"><img src="images/legout.png" class="project-img"></a>
+              </div>
+          <div class="bikey col-sm-12 col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Le gout (Restaurant Website -- Ongoing Project) </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consectetur sequi voluptate placeat, et ipsa suscipit molestiae rerum culpa provident id quis fugit sunt assumenda quibusdam officiis dicta hic. Repellendus. </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
         <!-- Skills -->
         <h2 class="title" style="text-align: center;">Skills</h2>
@@ -111,24 +124,22 @@
             </ul>
           </div>
         </div>
-        <hr>
 
         <!-- CV -->
-        <div class="main">
+        <div id="my-cv">
           <div class="cv">
           <h2 class="title">My CV</h2>
             <a href="https://www.canva.com/design/DAEiGdrx52E/wMUnWiseRi9JFZMQoe6Wpg/view?utm_content=DAEiGdrx52E&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" target="_blank">Click here to Download</a><br><br>
             <img src="images/mycv.jpg">
           </div>
         </div>
-        <hr>
 
         <!-- CONTACTS -->
         <div class="main">
-          <div class="contacts">
+          <div id="contacts">
             <h2 class="title" style="text-align:center;">Get in Touch</h2>
-            <div class="contact-info">
-              <ul>
+            <div id="contact-info">
+              <ul style="padding-left: 0;">
                 <li class="fa fa-home">Velserduinweg 139<br>1971 ZA Ijmuiden<br>Netherlands</li>
                 <br>
                 <li class="fa fa-envelope-square"><a href="mailto:mapinera9@gmail.com" target="_blank">mapinera9@gmail.com</a></li>
@@ -142,6 +153,7 @@
       </div>
 
       <!-- footer -->
+
     <footer>
       <div class="container-fluid bg-dark">
         <div class="icons">
